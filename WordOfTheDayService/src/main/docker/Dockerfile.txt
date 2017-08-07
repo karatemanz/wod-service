@@ -1,0 +1,4 @@
+FROM java:8
+EXPOSE 8090
+ADD /target/WordOfTheDayService.jar WordOfTheDayService.jar
+ENTRYPOINT ["java", "-jar", "WordOfTheDayService.jar"]

@@ -1,0 +1,10 @@
+# root level ignores
+.metadata/
+.sonarlint/
+Servers/
+
+# project level ignores
+WordOfTheDayService/.settings
+WordOfTheDayService/target
+WordOfTheDayService/.classpath
+WordOfTheDayService/.project
